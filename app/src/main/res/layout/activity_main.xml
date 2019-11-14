@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewAge" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerAge"
         android:layout_width="356dp"
         android:layout_height="23dp"
         android:layout_marginStart="16dp"
@@ -45,7 +45,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <RadioGroup
-        android:id="@+id/RadioGroupGender"
+        android:id="@+id/radioGroupGender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -92,6 +92,7 @@
         android:layout_marginEnd="122dp"
         android:layout_marginRight="122dp"
         android:text="@string/insurance_premium"
+        android:textSize="@dimen/bigbig"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBoxSmoker" />
@@ -114,6 +115,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="resetInput"
         android:text="@string/reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
